@@ -13,6 +13,11 @@
 		B9FE8513298571210003923F /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE8512298571210003923F /* AnimationsListView.swift */; };
 		B9FE85162985734E0003923F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B9FE85152985734E0003923F /* Lottie */; };
 		B9FE851A298574480003923F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE8519298574480003923F /* LottieView.swift */; };
+		B9FE851D2985752E0003923F /* 133580-rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = B9FE851C2985752E0003923F /* 133580-rocket.json */; };
+		B9FE851F298575DE0003923F /* 65316-upload-progress-bar.json in Resources */ = {isa = PBXBuildFile; fileRef = B9FE851E298575DE0003923F /* 65316-upload-progress-bar.json */; };
+		B9FE8521298575E70003923F /* 12740-uploading-to-cloud.json in Resources */ = {isa = PBXBuildFile; fileRef = B9FE8520298575E70003923F /* 12740-uploading-to-cloud.json */; };
+		B9FE8523298575ED0003923F /* 90422-security-car-black.json in Resources */ = {isa = PBXBuildFile; fileRef = B9FE8522298575ED0003923F /* 90422-security-car-black.json */; };
+		B9FE8525298575F30003923F /* 68832-shop-car.json in Resources */ = {isa = PBXBuildFile; fileRef = B9FE8524298575F30003923F /* 68832-shop-car.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		B9FE8509298570CF0003923F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9FE8512298571210003923F /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		B9FE8519298574480003923F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		B9FE851C2985752E0003923F /* 133580-rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "133580-rocket.json"; sourceTree = "<group>"; };
+		B9FE851E298575DE0003923F /* 65316-upload-progress-bar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "65316-upload-progress-bar.json"; sourceTree = "<group>"; };
+		B9FE8520298575E70003923F /* 12740-uploading-to-cloud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "12740-uploading-to-cloud.json"; sourceTree = "<group>"; };
+		B9FE8522298575ED0003923F /* 90422-security-car-black.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "90422-security-car-black.json"; sourceTree = "<group>"; };
+		B9FE8524298575F30003923F /* 68832-shop-car.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "68832-shop-car.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				B9FE8502298570CD0003923F /* LottieAnimationsListApp.swift */,
+				B9FE851B2985750C0003923F /* Animations */,
 				B9FE8511298571010003923F /* Model */,
 				B9FE8510298570F90003923F /* Views */,
 				B9FE8506298570CF0003923F /* Assets.xcassets */,
@@ -86,6 +97,18 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B9FE851B2985750C0003923F /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B9FE851E298575DE0003923F /* 65316-upload-progress-bar.json */,
+				B9FE851C2985752E0003923F /* 133580-rocket.json */,
+				B9FE8520298575E70003923F /* 12740-uploading-to-cloud.json */,
+				B9FE8522298575ED0003923F /* 90422-security-car-black.json */,
+				B9FE8524298575F30003923F /* 68832-shop-car.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +175,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FE8523298575ED0003923F /* 90422-security-car-black.json in Resources */,
+				B9FE851D2985752E0003923F /* 133580-rocket.json in Resources */,
+				B9FE851F298575DE0003923F /* 65316-upload-progress-bar.json in Resources */,
+				B9FE8525298575F30003923F /* 68832-shop-car.json in Resources */,
+				B9FE8521298575E70003923F /* 12740-uploading-to-cloud.json in Resources */,
 				B9FE850A298570CF0003923F /* Preview Assets.xcassets in Resources */,
 				B9FE8507298570CF0003923F /* Assets.xcassets in Resources */,
 			);
