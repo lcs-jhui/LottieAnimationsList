@@ -9,7 +9,19 @@ import SwiftUI
 
 struct AnimationsListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            
+            List (animationGroups) { currentGroup in
+
+                NavigationLink(destination: {
+                    ExampleView(animationsToShow: currentGroup.items)
+                }, label: {
+                    Text(currentGroup.description)
+                })
+            }
+            .navigationTitle("Favourite Animations")
+        }
+
     }
 }
 

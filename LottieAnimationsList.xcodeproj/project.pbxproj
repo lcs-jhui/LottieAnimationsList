@@ -18,6 +18,8 @@
 		B9FE8521298575E70003923F /* 12740-uploading-to-cloud.json in Resources */ = {isa = PBXBuildFile; fileRef = B9FE8520298575E70003923F /* 12740-uploading-to-cloud.json */; };
 		B9FE8523298575ED0003923F /* 90422-security-car-black.json in Resources */ = {isa = PBXBuildFile; fileRef = B9FE8522298575ED0003923F /* 90422-security-car-black.json */; };
 		B9FE8525298575F30003923F /* 68832-shop-car.json in Resources */ = {isa = PBXBuildFile; fileRef = B9FE8524298575F30003923F /* 68832-shop-car.json */; };
+		B9FE85272985761F0003923F /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE85262985761F0003923F /* FavouriteAnimation.swift */; };
+		B9FE852929857A2C0003923F /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE852829857A2C0003923F /* ExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		B9FE8520298575E70003923F /* 12740-uploading-to-cloud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "12740-uploading-to-cloud.json"; sourceTree = "<group>"; };
 		B9FE8522298575ED0003923F /* 90422-security-car-black.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "90422-security-car-black.json"; sourceTree = "<group>"; };
 		B9FE8524298575F30003923F /* 68832-shop-car.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "68832-shop-car.json"; sourceTree = "<group>"; };
+		B9FE85262985761F0003923F /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
+		B9FE852829857A2C0003923F /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			children = (
 				B9FE8512298571210003923F /* AnimationsListView.swift */,
 				B9FE8519298574480003923F /* LottieView.swift */,
+				B9FE852829857A2C0003923F /* ExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 		B9FE8511298571010003923F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B9FE85262985761F0003923F /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,9 +198,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FE85272985761F0003923F /* FavouriteAnimation.swift in Sources */,
 				B9FE8503298570CD0003923F /* LottieAnimationsListApp.swift in Sources */,
 				B9FE8513298571210003923F /* AnimationsListView.swift in Sources */,
 				B9FE851A298574480003923F /* LottieView.swift in Sources */,
+				B9FE852929857A2C0003923F /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
